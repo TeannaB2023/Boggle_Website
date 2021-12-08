@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.0.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -35,8 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+<<<<<<< HEAD
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.3.0"
+=======
+>>>>>>> 35dd16df9021d93e3dc6fabc86f66fb7d7fffcc2
   }
 }

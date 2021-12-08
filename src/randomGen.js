@@ -20,10 +20,11 @@ exports.RandomGrid = function(size){
   let totalChars = size * size * size;
   
   
-  let freqLookUp = [{"let":"A","freq":.078}, {"let":"B","freq":.02}, {"let":"C","freq":.04}, {"let":"D","freq":.038}, {"let":"E","freq":.11}, {"let":"F","freq":.014}, {"let":"G","freq":.03}, {"let":"H","freq":.023}, {"let":"I","freq":.089}, {"let":"J","freq":.0021},	{"let":"K","freq":.0097},
+  let freqLookUp = [{"let":"A","freq":.078}, {"let":"B","freq":.02}, {"let":"C","freq":.04}, {"let":"D","freq":.038}, {"let":"E","freq":.11}, {"let":"F","freq":.014}, {"let":"G","freq":.03}, {"let":"H","freq":.023}, {"let":"I","freq":.089}, {"let":"J","freq":.0021},  {"let":"K","freq":.0097},
                     {"let":"L","freq":.053}, {"let":"M","freq":.027}, {"let":"N","freq":.072}, {"let":"O","freq":.061}, {"let":"P","freq":.028}, {"let":"Q","freq":.0019}, {"let":"R","freq":.073}, {"let":"S","freq":.087}, {"let":"T","freq":.067}, {"let":"U","freq":.033},
                     {"let":"V","freq":.01}, {"let":"W","freq":.0091}, {"let":"X","freq":.0027}, {"let":"Y","freq":.016}, {"let":"Z","freq":.0044}];
 
+  
   function iterate(item) {
     word += item.let.repeat(Math.round(item.freq * totalChars));
   }
