@@ -36,11 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-<<<<<<< HEAD
   },
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.3.0"
-=======
->>>>>>> 35dd16df9021d93e3dc6fabc86f66fb7d7fffcc2
   }
 }
